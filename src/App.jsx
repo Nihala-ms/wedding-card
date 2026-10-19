@@ -13,7 +13,7 @@ const wedding = {
   groomMother: "Fathima Rahman",
   groomAddress: "Rahman Manzil, Kottakkal, Malappuram, Kerala",
   date: "2027-02-14T10:00:00",
-  displayDate: "14 February 2027",
+  displayDate: "14 FEBRUARY 2027",
   ceremonyTime: "12:00 PM ",
   venue: "AURORA CASTLE THRISSUR",
   address: "Thrissur, Kerala, India",
