@@ -14,8 +14,8 @@ const wedding = {
   groomAddress: "Rahman Manzil, Kottakkal, Malappuram, Kerala",
   date: "2027-02-14T10:00:00",
   displayDate: "14 February 2027",
-  ceremonyTime: "10:00 AM onwards",
-  venue: "The Traditional Wedding Hall",
+  ceremonyTime: "12:00 PM ",
+  venue: "AURORA CASTLE THRISSUR",
   address: "Thrissur, Kerala, India",
   mapsUrl: "https://maps.google.com/?q=Thrissur+Kerala",
 };
@@ -576,7 +576,7 @@ function App() {
               <div className="event-detail">
                 <span className="event-detail-icon">◷</span>
                 <div>
-                  <span className="event-detail-label">THE TIME</span>
+                  <span className="event-detail-label">NIKKAH</span>
                   <h3>{wedding.ceremonyTime}</h3>
                   <p>Please arrive a little early.</p>
                 </div>
@@ -608,13 +608,7 @@ function App() {
                 </div>
               </div>
 
-              <button
-                className="primary-button detail-share"
-                type="button"
-                onClick={shareInvitation}
-              >
-                Share this invitation <span>↗</span>
-              </button>
+              
             </div>
           </div>
         </div>
