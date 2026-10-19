@@ -25,25 +25,21 @@ const photos = [
     image:
       "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=90",
     title: "The beginning",
-    number: "01",
   },
   {
     image:
       "https://images.unsplash.com/photo-1692991812506-9d365d755bdc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     title: "Little moments",
-    number: "02",
   },
   {
     image:
       "https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=1200&q=90",
     title: "A lifetime together",
-    number: "03",
   },
   {
     image:
       "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1200&q=90",
     title: "Made for forever",
-    number: "04",
   },
 ];
 
@@ -439,14 +435,11 @@ function App() {
       </span>
       {isPlaying ? "Pause the music" : "Play our song"}
     </button>
-    <span className="music-hint">
-      A LITTLE SOUNDTRACK TO OUR STORY
-    </span>
+    
   </div>
 
   <div className="family-grid">
     <article className="family-card">
-      <span className="family-number">01</span>
       <span className="family-heart">♡</span>
       <p className="card-overline">THE BRIDE</p>
       <h3>{wedding.bride}</h3>
@@ -458,7 +451,6 @@ function App() {
     </article>
 
     <article className="family-card family-card-featured">
-      <span className="family-number">02</span>
       <span className="family-heart">♡</span>
       <p className="card-overline">THE GROOM</p>
       <h3>{wedding.groom}</h3>
@@ -645,7 +637,6 @@ function App() {
               aria-label={`View photo: ${photo.title}`}
             >
               <img src={photo.image} alt={photo.title} loading="lazy" />
-              <span className="gallery-number">{photo.number}</span>
               <span className="gallery-card-caption">
                 <span>{photo.title}</span>
                 <span className="gallery-arrow">↗</span>
